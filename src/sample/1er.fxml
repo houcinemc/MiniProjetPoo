@@ -14,7 +14,7 @@
    <children>
       <ImageView fitHeight="700.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@la-gourmandise-18.gif" />
+            <Image url="@../Image/la-gourmandise-18.gif" />
          </image>
       </ImageView>
       <Button layoutX="441.0" layoutY="619.0" mnemonicParsing="false" onAction="#toSecondeF" prefHeight="60.0" prefWidth="177.0" text="Commencer " textAlignment="RIGHT">
@@ -37,7 +37,7 @@
       <WebView layoutX="635.0" layoutY="211.0" prefHeight="78.0" prefWidth="37.0" />
       <ImageView fitHeight="85.0" fitWidth="105.0" layoutX="583.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@teteHomme.gif" />
+            <Image url="@../Image/teteHomme.gif" />
          </image></ImageView>
       <Text layoutX="427.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="~      e the chief~" wrappingWidth="255.99999749660492">
          <font>
@@ -67,12 +67,12 @@
       </Text>
       <ImageView fitHeight="102.0" fitWidth="105.0" layoutX="472.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Fleche-rouge-scintillante.gif" />
+            <Image url="@../Image/Fleche-rouge-scintillante.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="60.0" fitWidth="69.0" layoutX="316.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@w.gif" />
+            <Image url="@../Image/w.gif" />
          </image>
       </ImageView>
       <Text layoutX="451.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="o" wrappingWidth="47.99999749660492">
@@ -90,12 +90,12 @@
       </Text>
       <ImageView fitHeight="41.0" fitWidth="48.0" layoutX="414.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@T.gif" />
+            <Image url="@../Image/T.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="41.0" fitWidth="37.0" layoutX="452.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@B.gif" />
+            <Image url="@../Image/B.gif" />
          </image>
       </ImageView>
    </children>

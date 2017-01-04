@@ -73,67 +73,67 @@
       <CheckBox layoutX="366.0" layoutY="154.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="conféture" />
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+            <Image url="@../Image/strawberry_sweets_by_kmygraphic-d6gklay.gif" />
          </image>
       </ImageView>
       <ImageView fitHeight="119.0" fitWidth="107.0" layoutX="302.0" layoutY="580.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@homDecoupeEtMange.gif" />
+            <Image url="@../Image/homDecoupeEtMange.gif" />
          </image>
       </ImageView>
       <Button layoutX="22.0" layoutY="642.0" mnemonicParsing="false" onAction="#toSecondeF" prefHeight="48.0" prefWidth="174.0" text="Retour !">
