@@ -10,74 +10,41 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Text layoutX="73.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   Crocher les ingrédient que vous avez " wrappingWidth="382.7294921875">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-         <fill>
-            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" radius="0.20238095238095238">
-               <stops>
-                  <Stop color="#cc1b1b" />
-                  <Stop color="#250909" offset="1.0" />
-               </stops>
-            </RadialGradient>
-         </fill>
-      </Text>
-      <ImageView fitHeight="93.0" fitWidth="156.0" layoutX="612.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="93.0" fitWidth="156.0" layoutX="534.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="93.0" fitWidth="156.0" layoutX="458.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="119.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
-         </image>
-      </ImageView>
-      <CheckBox fx:id="f1" layoutX="201.0" layoutY="113.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="farine" />
-      <CheckBox fx:id="f2" layoutX="201.0" layoutY="141.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre" />
-      <CheckBox fx:id="f3" layoutX="201.0" layoutY="172.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre glace" />
-      <CheckBox fx:id="f4" layoutX="201.0" layoutY="203.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="vanille" />
-      <CheckBox fx:id="f5" layoutX="201.0" layoutY="231.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="oeufs" />
-      <CheckBox fx:id="f6" layoutX="201.0" layoutY="262.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="beurre" />
-      <CheckBox fx:id="f7" layoutX="201.0" layoutY="293.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="l'huile" />
-      <CheckBox fx:id="f8" layoutX="201.0" layoutY="321.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="crém liquide" />
-      <CheckBox fx:id="f9" layoutX="201.0" layoutY="352.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre roux" />
-      <CheckBox fx:id="f10" layoutX="201.0" layoutY="383.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre " />
-      <CheckBox layoutX="201.0" layoutY="411.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="chocolat" />
-      <CheckBox layoutX="201.0" layoutY="442.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="levure chimique" />
-      <CheckBox layoutX="201.0" layoutY="475.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="Pate sablée breton" />
-      <CheckBox layoutX="201.0" layoutY="506.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="amandes" />
-      <CheckBox layoutX="201.0" layoutY="534.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="maizena" />
-      <CheckBox layoutX="201.0" layoutY="565.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="gelatine" />
-      <CheckBox layoutX="356.0" layoutY="117.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="CheckBox" />
-      <CheckBox fx:id="check1" layoutX="356.0" layoutY="145.0" mnemonicParsing="false" onAction="#changecheck" prefHeight="18.0" prefWidth="119.0" text="biscuit" />
-      <CheckBox layoutX="356.0" layoutY="176.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="café" />
-      <CheckBox layoutX="356.0" layoutY="207.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="créme fraiche" />
-      <CheckBox layoutX="356.0" layoutY="235.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="mascarpone" />
-      <CheckBox layoutX="356.0" layoutY="266.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="Creem chantilly" />
-      <CheckBox layoutX="356.0" layoutY="297.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="pomme" />
-      <CheckBox layoutX="356.0" layoutY="325.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sel" />
-      <CheckBox layoutX="356.0" layoutY="356.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="citrons" />
-      <CheckBox layoutX="356.0" layoutY="387.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="additif alimentaire" />
-      <CheckBox layoutX="356.0" layoutY="415.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="abricots" />
-      <CheckBox layoutX="356.0" layoutY="446.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="fraises" />
-      <CheckBox layoutX="356.0" layoutY="479.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="noix de coco" />
-      <CheckBox layoutX="356.0" layoutY="510.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="caramel" />
-      <CheckBox layoutX="356.0" layoutY="538.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="cacao" />
-      <CheckBox layoutX="356.0" layoutY="569.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="lait" />
-      <Button layoutX="518.0" layoutY="645.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="174.0" text="Allons-y !">
+      <CheckBox fx:id="f1" layoutX="211.0" layoutY="123.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="farine" />
+      <CheckBox fx:id="f2" layoutX="211.0" layoutY="151.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre" />
+      <CheckBox fx:id="f3" layoutX="211.0" layoutY="182.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre glace" />
+      <CheckBox fx:id="f4" layoutX="211.0" layoutY="213.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="vanille" />
+      <CheckBox fx:id="f5" layoutX="211.0" layoutY="241.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="oeufs" />
+      <CheckBox fx:id="f6" layoutX="211.0" layoutY="272.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="beurre" />
+      <CheckBox fx:id="f7" layoutX="211.0" layoutY="303.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="l'huile" />
+      <CheckBox fx:id="f8" layoutX="211.0" layoutY="331.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="crém liquide" />
+      <CheckBox fx:id="f9" layoutX="211.0" layoutY="362.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre roux" />
+      <CheckBox fx:id="f10" layoutX="211.0" layoutY="393.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sucre " />
+      <CheckBox layoutX="211.0" layoutY="421.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="chocolat" />
+      <CheckBox layoutX="211.0" layoutY="452.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="levure chimique" />
+      <CheckBox layoutX="211.0" layoutY="485.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="Pate sablée breton" />
+      <CheckBox layoutX="211.0" layoutY="516.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="amandes" />
+      <CheckBox layoutX="211.0" layoutY="544.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="maizena" />
+      <CheckBox layoutX="211.0" layoutY="575.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="gelatine" />
+      <CheckBox layoutX="366.0" layoutY="127.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="miel" />
+      
+      <CheckBox layoutX="366.0" layoutY="186.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="café" />
+      <CheckBox layoutX="366.0" layoutY="217.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="créme fraiche" />
+      <CheckBox layoutX="366.0" layoutY="245.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="mascarpone" />
+      <CheckBox layoutX="366.0" layoutY="276.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="156.0" text="Creem chantilly" />
+      <CheckBox layoutX="366.0" layoutY="307.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="pomme" />
+      <CheckBox layoutX="366.0" layoutY="335.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="sel" />
+      <CheckBox layoutX="366.0" layoutY="366.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="citrons" />
+      <CheckBox layoutX="366.0" layoutY="397.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="156.0" text="additif alimentaire" />
+      <CheckBox layoutX="366.0" layoutY="425.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="abricots" />
+      <CheckBox layoutX="366.0" layoutY="456.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="fraises" />
+      <CheckBox layoutX="366.0" layoutY="489.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="noix de coco" />
+      <CheckBox layoutX="366.0" layoutY="520.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="caramel" />
+      <CheckBox layoutX="366.0" layoutY="548.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="cacao" />
+      <CheckBox layoutX="366.0" layoutY="579.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="lait" />
+      <Button layoutX="398.0" layoutY="642.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="174.0" text="Allons-y !">
          <textFill>
             <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
                <stops>
@@ -88,11 +55,86 @@
          </textFill>
          <font>
             <Font name="System Bold" size="21.0" />
-         </font></Button>
-      <ImageView fitHeight="108.0" fitWidth="93.0" layoutX="431.0" layoutY="593.0" pickOnBounds="true" preserveRatio="true">
+         </font>
+      </Button>
+      <Text layoutX="83.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   Crocher les ingrédient que vous avez " wrappingWidth="382.7294921875">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" cycleMethod="REFLECT" radius="0.20238095238095238">
+               <stops>
+                  <Stop color="#cc1b1b" />
+                  <Stop color="#250909" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <CheckBox layoutX="366.0" layoutY="154.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="119.0" text="conféture" />
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="8.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="119.0" layoutX="529.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="99.0" layoutX="291.0" layoutY="567.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@homDecoupeEtMange.gif" />
          </image>
       </ImageView>
-       </children>
+   </children>
 </AnchorPane>
