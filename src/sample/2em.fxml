@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="264.0" fitWidth="314.0" layoutX="9.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cfd5ef9d.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="287.0" fitWidth="314.0" layoutX="394.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cfd5ef9d.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="25.0" layoutY="169.0" mnemonicParsing="false" onAction="#tothreeF" prefHeight="70.0" prefWidth="654.0" text="Trouver une recette en fonction des ingrédient que vous avez!" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#ff0f0f" />
+                  <Stop color="#360c0c" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button layoutX="162.0" layoutY="372.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="364.0" text="Inserer une nouvelle recette!">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#ff0f0f" />
+                  <Stop color="#360c0c" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button layoutX="88.0" layoutY="271.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="482.0" text="Chercher une recette que vous connaissez!">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#ff0f0f" />
+                  <Stop color="#360c0c" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <ImageView fitHeight="137.0" fitWidth="137.0" layoutX="563.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="137.0" layoutX="439.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="137.0" layoutX="296.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="137.0" layoutX="141.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="137.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@strawberry_sweets_by_kmygraphic-d6gklay.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
